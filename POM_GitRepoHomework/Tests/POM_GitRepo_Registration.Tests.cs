@@ -1,15 +1,15 @@
 ﻿using NUnit.Framework;
 using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Remote;
 using POM_GitRepoHomework.Pages;
-using System.IO;
-using System.Reflection;
+using System;
 
 namespace POM_GitRepoHomework.Tests
 {
     [TestFixture]
     public class PageObjectModel
     {
-        private ChromeDriver _driver;
+        private RemoteWebDriver _driver;
         private RegistrationUser _user;
         private LoginPage _loginPage;
         private RegistrationPage _registrationPage;
@@ -20,7 +20,12 @@ namespace POM_GitRepoHomework.Tests
         [SetUp]
         public void CalssInit()
         {
-            _driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location));
+            ChromeOptions options = new ChromeOptions();
+            options.PlatformName = "windows";
+            options.BrowserVersion = "77";
+
+            _driver = new RemoteWebDriver(new Uri("http://192.168.1.11:47909/wd/hub"), options.ToCapabilities(), TimeSpan.FromSeconds(10));
+            _driver.Manage().Timeouts().PageLoad = TimeSpan.FromSeconds(30);
             _driver.Manage().Window.Maximize();
             _loginPage = new LoginPage(_driver);
             _registrationPage = new RegistrationPage(_driver);
