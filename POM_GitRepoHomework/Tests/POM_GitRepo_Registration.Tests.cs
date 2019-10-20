@@ -1,13 +1,10 @@
 ﻿using NUnit.Framework;
 using OpenQA.Selenium.Chrome;
-using OpenQA.Selenium.Remote;
-using OpenQA.Selenium.Support.UI;
 using POM_GitRepoHomework.Pages;
-using System;
 using System.IO;
 using System.Reflection;
 
-namespace POM_GitRepoHomework
+namespace POM_GitRepoHomework.Tests
 {
     [TestFixture]
     public class PageObjectModel
@@ -16,6 +13,9 @@ namespace POM_GitRepoHomework
         private RegistrationUser _user;
         private LoginPage _loginPage;
         private RegistrationPage _registrationPage;
+        private SoftUniPage _softuniPage;
+        private NewSearch _search;
+        private GoogleSearchPage _google_searchPage;
 
         [SetUp]
         public void CalssInit()
@@ -25,6 +25,8 @@ namespace POM_GitRepoHomework
             _loginPage = new LoginPage(_driver);
             _registrationPage = new RegistrationPage(_driver);
             _user = UserFactory.CreateNewUser();
+            _softuniPage = new SoftUniPage(_driver);
+            _google_searchPage = new GoogleSearchPage(_driver);
         }
 
         [Test]
@@ -103,6 +105,22 @@ namespace POM_GitRepoHomework
             _registrationPage.RegisterButton.Click();
 
             _registrationPage.AssertErrorMessage1("passwd is required.");
+        }
+
+        [Test]
+        public void QaAutomation()
+        {
+            _softuniPage.Navigate(_softuniPage);
+
+            _softuniPage.AssertHeader("QA Automation - септември 2019");
+        }
+
+        [Test]
+        public void GoogleSearch()
+        {
+            _google_searchPage.Navigate(_google_searchPage);
+
+            _google_searchPage.PageHeader("Selenium - Web Browser Automation");
         }
 
         [TearDown]
