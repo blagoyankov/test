@@ -1,0 +1,17 @@
+C:\Users\blago\source\repos\POM_GitRepo\POM_GitRepoHomework\bin\Debug\netcoreapp2.1\POM_GitRepoHomework.deps.json
+C:\Users\blago\source\repos\POM_GitRepo\POM_GitRepoHomework\bin\Debug\netcoreapp2.1\POM_GitRepoHomework.dll
+C:\Users\blago\source\repos\POM_GitRepo\POM_GitRepoHomework\obj\Debug\netcoreapp2.1\POM_GitRepoHomework.csprojAssemblyReference.cache
+C:\Users\blago\source\repos\POM_GitRepo\POM_GitRepoHomework\obj\Debug\netcoreapp2.1\POM_GitRepoHomework.csproj.CoreCompileInputs.cache
+C:\Users\blago\source\repos\POM_GitRepo\POM_GitRepoHomework\obj\Debug\netcoreapp2.1\POM_GitRepoHomework.AssemblyInfoInputs.cache
+C:\Users\blago\source\repos\POM_GitRepo\POM_GitRepoHomework\obj\Debug\netcoreapp2.1\POM_GitRepoHomework.AssemblyInfo.cs
+C:\Users\blago\source\repos\POM_GitRepo\POM_GitRepoHomework\bin\Debug\netcoreapp2.1\POM_GitRepoHomework.pdb
+C:\Users\blago\source\repos\POM_GitRepo\POM_GitRepoHomework\obj\Debug\netcoreapp2.1\POM_GitRepoHomework.dll
+C:\Users\blago\source\repos\POM_GitRepo\POM_GitRepoHomework\obj\Debug\netcoreapp2.1\POM_GitRepoHomework.pdb
+C:\Users\blago\source\repos\POM_GitRepo\POM_GitRepoHomework\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.dll
+C:\Users\blago\source\repos\POM_GitRepo\POM_GitRepoHomework\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.pdb
+C:\Users\blago\source\repos\POM_GitRepo\POM_GitRepoHomework\bin\Debug\netcoreapp2.1\nunit.engine.dll
+C:\Users\blago\source\repos\POM_GitRepo\POM_GitRepoHomework\bin\Debug\netcoreapp2.1\nunit.engine.api.dll
+C:\Users\blago\source\repos\POM_GitRepo\POM_GitRepoHomework\bin\Debug\netcoreapp2.1\testhost.exe
+C:\Users\blago\source\repos\POM_GitRepo\POM_GitRepoHomework\bin\Debug\netcoreapp2.1\testhost.dll
+C:\Users\blago\source\repos\POM_GitRepo\POM_GitRepoHomework\bin\Debug\netcoreapp2.1\POM_GitRepoHomework.runtimeconfig.json
+C:\Users\blago\source\repos\POM_GitRepo\POM_GitRepoHomework\bin\Debug\netcoreapp2.1\POM_GitRepoHomework.runtimeconfig.dev.json
